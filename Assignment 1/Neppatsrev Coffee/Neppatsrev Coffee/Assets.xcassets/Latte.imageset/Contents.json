@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Partners-Latte-FT-BLOG0523-09569880de524fe487831d95184495cc.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
