@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B4011D12C03012100658ACA /* Sejpeons_SweetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4011D02C03012100658ACA /* Sejpeons_SweetsApp.swift */; };
+		0B4011D32C03012100658ACA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4011D22C03012100658ACA /* ContentView.swift */; };
+		0B4011D52C03012500658ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B4011D42C03012500658ACA /* Assets.xcassets */; };
+		0B4011D82C03012500658ACA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B4011D72C03012500658ACA /* Preview Assets.xcassets */; };
+		0B4011E22C03012500658ACA /* Sejpeons_SweetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4011E12C03012500658ACA /* Sejpeons_SweetsTests.swift */; };
+		0B4011EC2C03012600658ACA /* Sejpeons_SweetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4011EB2C03012600658ACA /* Sejpeons_SweetsUITests.swift */; };
+		0B4011EE2C03012600658ACA /* Sejpeons_SweetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4011ED2C03012600658ACA /* Sejpeons_SweetsUITestsLaunchTests.swift */; };
+		0B4011FB2C03BFFF00658ACA /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4011FA2C03BFFF00658ACA /* MenuView.swift */; };
+		0B4011FD2C03C05100658ACA /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4011FC2C03C05100658ACA /* ProductDetailView.swift */; };
+		0B4011FF2C03C06F00658ACA /* StoreLocatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4011FE2C03C06F00658ACA /* StoreLocatorView.swift */; };
+		0B4012012C03C09300658ACA /* SpecialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4012002C03C09300658ACA /* SpecialsView.swift */; };
+		0B4012032C03C0AE00658ACA /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4012022C03C0AE00658ACA /* ShoppingListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B4011DE2C03012500658ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B4011C52C03012100658ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B4011CC2C03012100658ACA;
+			remoteInfo = "Sejpeons Sweets";
+		};
+		0B4011E82C03012600658ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B4011C52C03012100658ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B4011CC2C03012100658ACA;
+			remoteInfo = "Sejpeons Sweets";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B4011CD2C03012100658ACA /* Sejpeons Sweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sejpeons Sweets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B4011D02C03012100658ACA /* Sejpeons_SweetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sejpeons_SweetsApp.swift; sourceTree = "<group>"; };
+		0B4011D22C03012100658ACA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B4011D42C03012500658ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B4011D72C03012500658ACA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B4011DD2C03012500658ACA /* Sejpeons SweetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sejpeons SweetsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B4011E12C03012500658ACA /* Sejpeons_SweetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sejpeons_SweetsTests.swift; sourceTree = "<group>"; };
+		0B4011E72C03012600658ACA /* Sejpeons SweetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sejpeons SweetsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B4011EB2C03012600658ACA /* Sejpeons_SweetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sejpeons_SweetsUITests.swift; sourceTree = "<group>"; };
+		0B4011ED2C03012600658ACA /* Sejpeons_SweetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sejpeons_SweetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B4011FA2C03BFFF00658ACA /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		0B4011FC2C03C05100658ACA /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		0B4011FE2C03C06F00658ACA /* StoreLocatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLocatorView.swift; sourceTree = "<group>"; };
+		0B4012002C03C09300658ACA /* SpecialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialsView.swift; sourceTree = "<group>"; };
+		0B4012022C03C0AE00658ACA /* ShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B4011CA2C03012100658ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B4011DA2C03012500658ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B4011E42C03012600658ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4011C42C03012100658ACA = {
+			isa = PBXGroup;
+			children = (
+				0B4011CF2C03012100658ACA /* Sejpeons Sweets */,
+				0B4011E02C03012500658ACA /* Sejpeons SweetsTests */,
+				0B4011EA2C03012600658ACA /* Sejpeons SweetsUITests */,
+				0B4011CE2C03012100658ACA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B4011CE2C03012100658ACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B4011CD2C03012100658ACA /* Sejpeons Sweets.app */,
+				0B4011DD2C03012500658ACA /* Sejpeons SweetsTests.xctest */,
+				0B4011E72C03012600658ACA /* Sejpeons SweetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B4011CF2C03012100658ACA /* Sejpeons Sweets */ = {
+			isa = PBXGroup;
+			children = (
+				0B4011D02C03012100658ACA /* Sejpeons_SweetsApp.swift */,
+				0B4011D22C03012100658ACA /* ContentView.swift */,
+				0B4011FA2C03BFFF00658ACA /* MenuView.swift */,
+				0B4011FC2C03C05100658ACA /* ProductDetailView.swift */,
+				0B4011FE2C03C06F00658ACA /* StoreLocatorView.swift */,
+				0B4012002C03C09300658ACA /* SpecialsView.swift */,
+				0B4012022C03C0AE00658ACA /* ShoppingListView.swift */,
+				0B4011D42C03012500658ACA /* Assets.xcassets */,
+				0B4011D62C03012500658ACA /* Preview Content */,
+			);
+			path = "Sejpeons Sweets";
+			sourceTree = "<group>";
+		};
+		0B4011D62C03012500658ACA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B4011D72C03012500658ACA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B4011E02C03012500658ACA /* Sejpeons SweetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B4011E12C03012500658ACA /* Sejpeons_SweetsTests.swift */,
+			);
+			path = "Sejpeons SweetsTests";
+			sourceTree = "<group>";
+		};
+		0B4011EA2C03012600658ACA /* Sejpeons SweetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B4011EB2C03012600658ACA /* Sejpeons_SweetsUITests.swift */,
+				0B4011ED2C03012600658ACA /* Sejpeons_SweetsUITestsLaunchTests.swift */,
+			);
+			path = "Sejpeons SweetsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B4011CC2C03012100658ACA /* Sejpeons Sweets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B4011F12C03012600658ACA /* Build configuration list for PBXNativeTarget "Sejpeons Sweets" */;
+			buildPhases = (
+				0B4011C92C03012100658ACA /* Sources */,
+				0B4011CA2C03012100658ACA /* Frameworks */,
+				0B4011CB2C03012100658ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sejpeons Sweets";
+			productName = "Sejpeons Sweets";
+			productReference = 0B4011CD2C03012100658ACA /* Sejpeons Sweets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B4011DC2C03012500658ACA /* Sejpeons SweetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B4011F42C03012600658ACA /* Build configuration list for PBXNativeTarget "Sejpeons SweetsTests" */;
+			buildPhases = (
+				0B4011D92C03012500658ACA /* Sources */,
+				0B4011DA2C03012500658ACA /* Frameworks */,
+				0B4011DB2C03012500658ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B4011DF2C03012500658ACA /* PBXTargetDependency */,
+			);
+			name = "Sejpeons SweetsTests";
+			productName = "Sejpeons SweetsTests";
+			productReference = 0B4011DD2C03012500658ACA /* Sejpeons SweetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B4011E62C03012600658ACA /* Sejpeons SweetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B4011F72C03012600658ACA /* Build configuration list for PBXNativeTarget "Sejpeons SweetsUITests" */;
+			buildPhases = (
+				0B4011E32C03012600658ACA /* Sources */,
+				0B4011E42C03012600658ACA /* Frameworks */,
+				0B4011E52C03012600658ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B4011E92C03012600658ACA /* PBXTargetDependency */,
+			);
+			name = "Sejpeons SweetsUITests";
+			productName = "Sejpeons SweetsUITests";
+			productReference = 0B4011E72C03012600658ACA /* Sejpeons SweetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B4011C52C03012100658ACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0B4011CC2C03012100658ACA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0B4011DC2C03012500658ACA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0B4011CC2C03012100658ACA;
+					};
+					0B4011E62C03012600658ACA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0B4011CC2C03012100658ACA;
+					};
+				};
+			};
+			buildConfigurationList = 0B4011C82C03012100658ACA /* Build configuration list for PBXProject "Sejpeons Sweets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B4011C42C03012100658ACA;
+			productRefGroup = 0B4011CE2C03012100658ACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B4011CC2C03012100658ACA /* Sejpeons Sweets */,
+				0B4011DC2C03012500658ACA /* Sejpeons SweetsTests */,
+				0B4011E62C03012600658ACA /* Sejpeons SweetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B4011CB2C03012100658ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4011D82C03012500658ACA /* Preview Assets.xcassets in Resources */,
+				0B4011D52C03012500658ACA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B4011DB2C03012500658ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B4011E52C03012600658ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B4011C92C03012100658ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4012012C03C09300658ACA /* SpecialsView.swift in Sources */,
+				0B4012032C03C0AE00658ACA /* ShoppingListView.swift in Sources */,
+				0B4011D32C03012100658ACA /* ContentView.swift in Sources */,
+				0B4011FD2C03C05100658ACA /* ProductDetailView.swift in Sources */,
+				0B4011FB2C03BFFF00658ACA /* MenuView.swift in Sources */,
+				0B4011D12C03012100658ACA /* Sejpeons_SweetsApp.swift in Sources */,
+				0B4011FF2C03C06F00658ACA /* StoreLocatorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B4011D92C03012500658ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4011E22C03012500658ACA /* Sejpeons_SweetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B4011E32C03012600658ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4011EE2C03012600658ACA /* Sejpeons_SweetsUITestsLaunchTests.swift in Sources */,
+				0B4011EC2C03012600658ACA /* Sejpeons_SweetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B4011DF2C03012500658ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B4011CC2C03012100658ACA /* Sejpeons Sweets */;
+			targetProxy = 0B4011DE2C03012500658ACA /* PBXContainerItemProxy */;
+		};
+		0B4011E92C03012600658ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B4011CC2C03012100658ACA /* Sejpeons Sweets */;
+			targetProxy = 0B4011E82C03012600658ACA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B4011EF2C03012600658ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B4011F02C03012600658ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B4011F22C03012600658ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sejpeons Sweets/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XZ7V2QUST;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.curtin.comp2010.Mohamed-Leevan-Ahmed.Sejpeons-Sweets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B4011F32C03012600658ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sejpeons Sweets/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XZ7V2QUST;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.curtin.comp2010.Mohamed-Leevan-Ahmed.Sejpeons-Sweets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B4011F52C03012600658ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.curtin.comp2010.Mohamed-Leevan-Ahmed.Sejpeons-SweetsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sejpeons Sweets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sejpeons Sweets";
+			};
+			name = Debug;
+		};
+		0B4011F62C03012600658ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.curtin.comp2010.Mohamed-Leevan-Ahmed.Sejpeons-SweetsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sejpeons Sweets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sejpeons Sweets";
+			};
+			name = Release;
+		};
+		0B4011F82C03012600658ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.curtin.comp2010.Mohamed-Leevan-Ahmed.Sejpeons-SweetsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sejpeons Sweets";
+			};
+			name = Debug;
+		};
+		0B4011F92C03012600658ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.curtin.comp2010.Mohamed-Leevan-Ahmed.Sejpeons-SweetsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sejpeons Sweets";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B4011C82C03012100658ACA /* Build configuration list for PBXProject "Sejpeons Sweets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B4011EF2C03012600658ACA /* Debug */,
+				0B4011F02C03012600658ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B4011F12C03012600658ACA /* Build configuration list for PBXNativeTarget "Sejpeons Sweets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B4011F22C03012600658ACA /* Debug */,
+				0B4011F32C03012600658ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B4011F42C03012600658ACA /* Build configuration list for PBXNativeTarget "Sejpeons SweetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B4011F52C03012600658ACA /* Debug */,
+				0B4011F62C03012600658ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B4011F72C03012600658ACA /* Build configuration list for PBXNativeTarget "Sejpeons SweetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B4011F82C03012600658ACA /* Debug */,
+				0B4011F92C03012600658ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B4011C52C03012100658ACA /* Project object */;
+}
